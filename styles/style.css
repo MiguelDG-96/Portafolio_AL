@@ -144,6 +144,11 @@ h2{
     box-shadow: 4px 4px 8px var(--color-terciario);
 }
 
+.menu-link.active {
+    color: var(--color-secundario);
+    box-shadow: 4px 4px 8px var(--color-terciario);
+}
+
 @media (max-width: 768px), (max-width: 1000px){
     .menu-lista{
         padding: 5% 12%;
