@@ -23,7 +23,7 @@ body{
 }
 
 .container {
-    margin: 4% 12%;
+    margin: 0% 12% 4% 12%;
     display: flex;
     align-items: flex-start;
     justify-content:center;
@@ -105,6 +105,7 @@ h2{
     align-self: flex-start;
     width: 50%;
     height: 50%;
+    border-radius: 50%;
 
 }
 
@@ -151,6 +152,8 @@ h2{
     }
     .container{
         flex-direction: column-reverse;
+        margin: 0% 4%;
+        padding-bottom: 4%;
         gap: 32px;
         
     }
