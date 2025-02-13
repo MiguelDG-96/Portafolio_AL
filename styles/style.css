@@ -157,14 +157,18 @@ h2{
     }
     .container{
         flex-direction: column-reverse;
-        margin: 0% 4%;
+        margin: 0% 12%;
         padding-bottom: 4%;
         gap: 32px;
         
     }
 
     .container-contenido{
-        width: auto;
+        width: 100%;
+    }
+
+    .parrafo{
+        margin: auto;
     }
 
     .botones{
@@ -187,6 +191,15 @@ h2{
         font-size: 50%;
         flex-direction: column;
     } 
+
+    .container{
+        flex-direction: column-reverse;
+        margin: 0% 12%;
+        padding: 4%;
+        gap: 32px;
+        
+    }
+
     .botones{
         padding-bottom: 10px;
     }  
